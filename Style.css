@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+#canvas {
+  /* width: 100%;
+  height: 100%; */
+  /* border: 2px solid #000000; */
+  height: 80vh;
+  width: 80vw;
+  display: block;
+  margin: auto;
+  border:1px solid green;
+  margin-top: 100px;
+
+
+}
+.button-container{
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+#animationControl, #clear, #random_animation, #left_animation, #right_animation, #top_animation, #bottom_animation, #center_animation {
+  padding: 10px;
+  border-radius:0.2rem;
+  width: 100px;
+  border:none;
+  margin:1rem;
+
+}
+#animationControl {
+  background: RGB(127, 205, 205);
+  color: #fff;
+}
+#clear {
+  background:rgb(195, 68, 122);
+  color: #fff;
+}
+#random_animation {
+  background:
+  linear-gradient(red, transparent),
+  linear-gradient(to top left, lime, transparent),
+  linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+}
+
